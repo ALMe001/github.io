@@ -1,0 +1,178 @@
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav h1{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    
+    color: #2196F3;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+ 
+img.black{
+    width:650px;
+    
+    
+    border-style:double;
+    border-width: 5px;
+    border-color:#cfcfcf
+
+}
+.prev{
+  
+    padding-top:10px;
+    display:flex;
+    flex-direction: column;
+}
+.textPrev{
+  
+    display:flex;
+    padding-right:10px;
+    flex-direction:column;
+
+}
+.awesome{
+   
+    padding-left:10px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.search-product input{
+   
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 250px;
+    font-size: 17px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#c4c4c4;
+    margin-left:10px;
+    
+    
+}
+.search-product h4{
+    margin-left:10px;
+    padding-top:10px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+img.any{
+  width:200px;
+
+}
+
+.img-rev{
+ 
+  display:flex;
+}
+.intre{
+  padding-top:70px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .img-rev{
+ 
+    display:flex;
+    flex-direction: column;
+  }
+  .awesome{
+    display: flex;
+    flex-direction:column;
+  }
+  .intre{
+    padding-top:600px;
+    display:flex;
+    flex-direction: column;
+    
+  }
+  .total{
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .prev{
+    display:flex;
+    flex-direction:column;
+  } 
+  img.any{
+    width:50%;
+  }
+  img.black{
+    width:50%;
+    
+  }.search-product input,.search-product h4{
+    display:flex;
+    flex-direction: column;
+
+  }
+  
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+  
+  .textPrev{
+    display:flex;
+    flex-direction: column;
+  }
+
+}
+.total{
+  display:flex;
+  flex-direction:row;
+}
+.infoP{
+  padding-right:10px;
+}
